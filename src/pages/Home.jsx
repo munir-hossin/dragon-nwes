@@ -7,6 +7,7 @@ import Header from "../components/Header";
 function Home() {
   const [newsData, setNewsData] = useState([]); // To store fetched data
 
+
   
   const [loading, setLoading] = useState(true); // Loading state
 
